@@ -8,8 +8,6 @@ library(ggplot2)
 library(grid)
 #install.packages("RColorBrewer", dependencies = TRUE)
 library(RColorBrewer)
-cols = brewer.pal(8, "Dark2")
-ltys = c("solid","dashed","dotdash","longdash","twodash")
 
 t <- seq(0,1,length=100)
 x1 <- exp(-1*t)*sin(6*pi*t)
